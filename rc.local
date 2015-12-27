@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-su - pi -c '/usr/bin/tightvncserver :1'
+su - pi -c '/user/bin/vncserver :1 -geometry 1920x1080 -depth 24 -dpi 96'
 
 exit 0
 
