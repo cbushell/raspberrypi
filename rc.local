@@ -1,0 +1,6 @@
+#!/bin/sh -e
+
+su - pi -c '/usr/bin/tightvncserver :1'
+
+exit 0
+
